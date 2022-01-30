@@ -1,0 +1,25 @@
+.lala{
+    text-align: center;
+}
+.lulu {
+    text-align: center;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+  padding: 5px;
+    display: inline-block;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+}
